@@ -590,6 +590,9 @@ a {
 .callout {
   padding: 4rem;
   border-radius: 5px;
+  margin: 0 2rem;
+  width: auto;
+  max-width: 980px;
 }
 
 .callout--primary {
@@ -625,6 +628,14 @@ a {
     justify-self: start;
     margin: 0 2rem;
   }
+
+  .callout {
+    margin: 0 auto;
+  }
+  .container {
+    padding: 0 2rem;
+  }
+
 }
 
 /* Collapsibles */
@@ -966,4 +977,9 @@ a {
     font-size: 1.6rem;
     margin-bottom: 1.5rem;
   }
+}
+
+/* Sign-up Callout */
+.callout-signup {
+  transform: translateY(5rem);
 }
